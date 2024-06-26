@@ -18,12 +18,7 @@ const Feed = () => {
     return(
         <section className='feed'>
             <form className='relative w-full flex-center'>
-                <input
-
-                    type='text'
-                    placeholder = 'search for tag or username'
-                />
-
+                
             </form>
 
             <PromptCardList/>
